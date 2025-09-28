@@ -44,9 +44,9 @@ Clone the repository to your local machine:
     ```
 
 2.  **Set up the Backend:**
-    * Navigate to the backend directory:
+    * Navigate to the main directory:
         ```bash
-        cd backend
+        cd echoo
         ```
     * Install the dependencies:
         ```bash
@@ -72,29 +72,7 @@ Clone the repository to your local machine:
         ```
     ✅ The backend should now be running on `http://localhost:3001`.
 
-3.  **Set up the Frontend:**
-    * Open a **new terminal** and navigate back to the root `Echoo` folder, then into the `frontend` directory:
-        ```bash
-        cd ../frontend
-        ```
-    * Install the dependencies:
-        ```bash
-        npm install
-        ```
-    * Create an environment file by copying the example:
-        ```bash
-        cp .env.example .env
-        ```
-    * Open the new `.env` file and make sure it points to your backend server:
-        ```env
-        # .env
-        VITE_BACKEND_URL=http://localhost:3001/api
-        ```
-    * Start the frontend development server:
-        ```bash
-        npm run dev
-        ```
-  ✅ The frontend should now be running (usually on `http://localhost:5173`). Open this URL in your browser to use the application.
+
 
 ## Available Scripts
 Backend (/backend)
